@@ -10,11 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            
+            NavigationBar()
         }
     }
 }
 
 #Preview {
     ContentView()
+        .previewLayout(.sizeThatFits)
 }
