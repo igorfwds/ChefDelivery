@@ -17,10 +17,12 @@ struct CarouselTabView: View {
     
     var body: some View {
         TabView {
-            ForEach (ordersMock) { banner in
-                CarrouselItemView(order: banner)
+            ForEach (ordersMock) { mock in
+                CarrouselItemView(order: mock)
             }
         }
+        .frame(height: 180)
+        .tabViewStyle(.page(indexDisplayMode: .always))
     }
 }
 
