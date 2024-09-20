@@ -23,6 +23,9 @@ struct OrderTypeView: View {
                 .fontWeight(.bold)
         }
         .frame(width: 70, height: 100)
+        .onTapGesture {
+            print("Você clicou em \(orderType.name)")
+        }
     }
 }
 
