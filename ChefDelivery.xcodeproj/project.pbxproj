@@ -18,6 +18,10 @@
 		F9B6000E2C9DD84600B69357 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6000D2C9DD84600B69357 /* OrderTypeView.swift */; };
 		F9B600112C9E0B2D00B69357 /* CarrouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B600102C9E0B2D00B69357 /* CarrouselItemView.swift */; };
 		F9B600132C9E0C8600B69357 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B600122C9E0C8600B69357 /* CarouselTabView.swift */; };
+		F9B600162C9E166200B69357 /* StoreListTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B600152C9E166200B69357 /* StoreListTitleView.swift */; };
+		F9B600182C9E16EC00B69357 /* StoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B600172C9E16EC00B69357 /* StoreListView.swift */; };
+		F9B6001A2C9E174200B69357 /* StoreListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B600192C9E174200B69357 /* StoreListItemView.swift */; };
+		F9B6001C2C9E1B3600B69357 /* StoreListGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6001B2C9E1B3600B69357 /* StoreListGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		F9B6000D2C9DD84600B69357 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		F9B600102C9E0B2D00B69357 /* CarrouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselItemView.swift; sourceTree = "<group>"; };
 		F9B600122C9E0C8600B69357 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
+		F9B600152C9E166200B69357 /* StoreListTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListTitleView.swift; sourceTree = "<group>"; };
+		F9B600172C9E16EC00B69357 /* StoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListView.swift; sourceTree = "<group>"; };
+		F9B600192C9E174200B69357 /* StoreListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListItemView.swift; sourceTree = "<group>"; };
+		F9B6001B2C9E1B3600B69357 /* StoreListGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 				F99F25E32C9CCEFC0013534E /* NavigationBar */,
 				F9B600052C9DCE7900B69357 /* GridView */,
 				F9B6000F2C9E0AF900B69357 /* CarrouselView */,
+				F9B600142C9E160A00B69357 /* StoreListView */,
 				F99F25D92C9CC8850013534E /* Assets.xcassets */,
 				F99F25DB2C9CC8850013534E /* Preview Content */,
 			);
@@ -126,6 +135,17 @@
 				F9B600122C9E0C8600B69357 /* CarouselTabView.swift */,
 			);
 			path = CarrouselView;
+			sourceTree = "<group>";
+		};
+		F9B600142C9E160A00B69357 /* StoreListView */ = {
+			isa = PBXGroup;
+			children = (
+				F9B600152C9E166200B69357 /* StoreListTitleView.swift */,
+				F9B600172C9E16EC00B69357 /* StoreListView.swift */,
+				F9B600192C9E174200B69357 /* StoreListItemView.swift */,
+				F9B6001B2C9E1B3600B69357 /* StoreListGroupView.swift */,
+			);
+			path = StoreListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,12 +219,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B6000A2C9DD25700B69357 /* OrderType.swift in Sources */,
+				F9B6001C2C9E1B3600B69357 /* StoreListGroupView.swift in Sources */,
 				F99F25D82C9CC8830013534E /* ContentView.swift in Sources */,
 				F9B6000C2C9DD2B400B69357 /* DataSourceMock.swift in Sources */,
+				F9B600162C9E166200B69357 /* StoreListTitleView.swift in Sources */,
 				F9B6000E2C9DD84600B69357 /* OrderTypeView.swift in Sources */,
 				F9B600112C9E0B2D00B69357 /* CarrouselItemView.swift in Sources */,
 				F9B600072C9DCE9A00B69357 /* OrderTypeGridView.swift in Sources */,
 				F99F25D62C9CC8830013534E /* ChefDeliveryApp.swift in Sources */,
+				F9B600182C9E16EC00B69357 /* StoreListView.swift in Sources */,
+				F9B6001A2C9E174200B69357 /* StoreListItemView.swift in Sources */,
 				F99F25E62C9CCF430013534E /* NavigationBar.swift in Sources */,
 				F9B600132C9E0C8600B69357 /* CarouselTabView.swift in Sources */,
 			);
