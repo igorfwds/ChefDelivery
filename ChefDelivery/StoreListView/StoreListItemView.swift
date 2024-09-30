@@ -9,11 +9,11 @@ import SwiftUI
 
 struct StoreListItemView: View {
     
-    let store : OrderType
+    let store : StoreType
     
     var body: some View {
         HStack {
-            Image(store.image)
+            Image(store.logoImage)
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(25)
@@ -24,12 +24,10 @@ struct StoreListItemView: View {
             
             Spacer()
         }
-        .onTapGesture {
-            print("Você clicou no \(store.name)")
-        }
+        
     }
 }
 
 #Preview {
-    StoreListItemView(store: OrderType(id: 1, name: "Monstro burguer", image: "monstro-burger-logo"))
+    StoreListItemView(store: storesMock[0])
 }

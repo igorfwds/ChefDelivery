@@ -13,10 +13,14 @@ struct StoreListGroupView: View {
     var body: some View {
         
         VStack(alignment: .leading, spacing: 30) {
-                ForEach(stores) { store in
-                    StoreListItemView(store: store)
-                }
+                ForEach(storesMock) { store in
+                    NavigationLink{ StoreDetailView(store: store)
+                    } label: {
+                        StoreListItemView(store: store)
+                        }
+                    }
             }
+        .foregroundColor(.black)
     }
 }
 
