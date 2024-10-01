@@ -10,8 +10,6 @@ import SwiftUI
 struct StoreListView: View {
     var body: some View {
         VStack {
-            StoreListTitleView()
-                .padding(.horizontal)
             StoreListGroupView()
                 .padding(.horizontal)
         }
