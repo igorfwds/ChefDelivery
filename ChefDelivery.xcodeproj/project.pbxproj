@@ -12,6 +12,7 @@
 		F90242982CAB250900C31FE4 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90242972CAB250900C31FE4 /* ProductType.swift */; };
 		F902429B2CAB305F00C31FE4 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902429A2CAB305F00C31FE4 /* Double+.swift */; };
 		F96E23C72CAC73B700991672 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E23C62CAC73B700991672 /* ProductDetailView.swift */; };
+		F988325D2CB45075007A0314 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F988325C2CB45075007A0314 /* HomeView.swift */; };
 		F99F25D62C9CC8830013534E /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99F25D52C9CC8830013534E /* ChefDeliveryApp.swift */; };
 		F99F25D82C9CC8830013534E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99F25D72C9CC8830013534E /* ContentView.swift */; };
 		F99F25DA2C9CC8850013534E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99F25D92C9CC8850013534E /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		F90242972CAB250900C31FE4 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 		F902429A2CAB305F00C31FE4 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		F96E23C62CAC73B700991672 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		F988325C2CB45075007A0314 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F99F25D22C9CC8830013534E /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99F25D52C9CC8830013534E /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		F99F25D72C9CC8830013534E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 			path = ProductView;
 			sourceTree = "<group>";
 		};
+		F988325B2CB4505E007A0314 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				F988325C2CB45075007A0314 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		F99F25C92C9CC8830013534E = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		F99F25D42C9CC8830013534E /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				F988325B2CB4505E007A0314 /* HomeView */,
 				F96E23C52CAC739C00991672 /* ProductView */,
 				F90242992CAB302900C31FE4 /* Extension */,
 				F99F25E42C9CCF120013534E /* App */,
@@ -290,6 +301,7 @@
 				F9C631E42CADC688005BB2EA /* ProductDetailQuantityView.swift in Sources */,
 				F9B600132C9E0C8600B69357 /* CarouselTabView.swift in Sources */,
 				F90242982CAB250900C31FE4 /* ProductType.swift in Sources */,
+				F988325D2CB45075007A0314 /* HomeView.swift in Sources */,
 				F96E23C72CAC73B700991672 /* ProductDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
